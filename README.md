@@ -1,7 +1,7 @@
-# clean-code-javascript
+# clean-code-javascript (ฉบับภาษาไทย)
 
-## Table of Contents
-  1. [Introduction](#introduction)
+## สารบัญ
+  1. [บทนำ](#บทนำ)
   2. [Variables](#variables)
   3. [Functions](#functions)
   4. [Objects and Data Structures](#objects-and-data-structures)
@@ -14,32 +14,19 @@
   11. [Comments](#comments)
   12. [Translation](#translation)
 
-## Introduction
+## บทนำ
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
-[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for JavaScript. This is not a style guide. It's a guide to producing
-[readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
+ข้อปฏิบัติและวิธีการพัฒนาซอฟแวร์จากหนังสือ [*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) ของ Robert C. Martin,
+ที่ถูกนำมาปรับใช้ให้เข้ากับ JavaScript เพื่อเป็นวิธีการในการพัฒนาซอฟแวร์ที่สามารถ
+[อ่านได้ง่าย, นำกลับมาใช้ใหม่ได้, และพัฒนาต่อยอดได้ดี](https://github.com/ryanmcdermott/3rs-of-software-architecture) ในรูปแบบของ JavaScript
 
-Not every principle herein has to be strictly followed, and even fewer will be
-universally agreed upon. These are guidelines and nothing more, but they are
-ones codified over many years of collective experience by the authors of
-*Clean Code*.
+ไม่จำเป็นต้องทำตามทุกๆข้อปฏิบัติ ช้อปฏิบัติบางข้อเท่านั้นที่มีการตกลงว่าจะใช้ร่วมกันจริงจังในสากล นี่เป็นเพียงวิธีการเท่านั้น และเป็นการรวบรวมเอาประสบการณ์จากการพัฒนาซอฟแวร์หลายปีของผู้เขียนหนังสือ *Clean Code* มารวบรวมไว้
 
-Our craft of software engineering is just a bit over 50 years old, and we are
-still learning a lot. When software architecture is as old as architecture
-itself, maybe then we will have harder rules to follow. For now, let these
-guidelines serve as a touchstone by which to assess the quality of the
-JavaScript code that you and your team produce.
+การพัฒนาซอฟแวร์ของเราเพิ่งมีไม่ตำ่กว่า 50 ปี และเรายังต้องเรียนรู้กันอีกมากมาย เมื่อโครงสร้างซอฟแวร์มีอายุมาก บางทีเราอาจจะมีกฏระเบียบต่างๆให้ทำตามมากขึ้น และในตอนนี้เราอยากให้วิธีการเหล่านี้เป็นตัวนำทางในการกำหนดคุณภาพของ JavaScript ที่ทีมพัฒนาของทุกคนจะพัฒนาขึ้นมา
 
-One more thing: knowing these won't immediately make you a better software
-developer, and working with them for many years doesn't mean you won't make
-mistakes. Every piece of code starts as a first draft, like wet clay getting
-shaped into its final form. Finally, we chisel away the imperfections when
-we review it with our peers. Don't beat yourself up for first drafts that need
-improvement. Beat up the code instead!
+ฝากไว้อย่างนึง: การเรียนรู้วิธีการเหล่านี้ไม่อาจทำให้ทุกคนเป็นนักพัฒนาที่ดีขึ้นได้ในทันที การทำงานร่วมกับเพื่อนนักพัฒนาทุกคนมาหลายปีไม่ใช่ว่าจะไม่มีวันเกิดข้อผิดพลาด ทุกชิ้นส่วนของการพัฒนาย่อมมีจุดเริ่มต้นในแบบของมัน เปรียบเสมือนการปั้นโคลนให้กลายเป็นไหอันล้ำค่า สุดท้ายแล้วเราจะช่วยกันกำจัดข้อบกพร่องให้ออกไปด้วยกัน จำไว้ว่าอย่าพยายามบังคับให้ตัวเองเขียนได้ดีมากตั้งแต่แรก แค่เขียนมันขึ้นมาก่อนก็พอ!
 
 ## **Variables**
 ### Use meaningful and pronounceable variable names
