@@ -1,7 +1,7 @@
 # clean-code-javascript (ฉบับภาษาไทย 🇹🇭)
 
 ## สารบัญ
-  1. [บทนำ](#บทนำ)
+  1. [บทนำ (Introduction)](#บทนำ-introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
   4. [Objects and Data Structures](#objects-and-data-structures)
@@ -14,7 +14,7 @@
   11. [Comments](#comments)
   12. [Translation](#translation)
 
-## บทนำ
+## บทนำ (Introduction)
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
