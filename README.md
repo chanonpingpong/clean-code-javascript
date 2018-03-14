@@ -1,4 +1,4 @@
-# clean-code-javascript (ฉบับภาษาไทย)
+# clean-code-javascript (ฉบับภาษาไทย 🇹🇭)
 
 ## สารบัญ
   1. [บทนำ](#บทนำ)
